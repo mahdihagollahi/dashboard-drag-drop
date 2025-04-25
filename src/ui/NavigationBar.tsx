@@ -6,7 +6,7 @@ export default function NavigationBar() {
             {["Home", "Reports", "Charts", "Settings"].map((item) => (
               <a
                 key={item}
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md"
+                className="text-gray-700 hover:text-blue-600 px-3 py-2 cursor-pointer rounded-md"
               >
                 {item}
               </a>
